@@ -199,15 +199,15 @@ a{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3rem;
 }
 .interest_items_2{
-    margin: 3rem;
+    margin: 1rem;
     margin-top: 2rem;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
 }
 .interest_item,
 .interest_item_2{
