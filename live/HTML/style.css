@@ -162,9 +162,24 @@ a{
 /* skills */
 
 .skill_list{
+    font-size: 1.4rem;
     margin-top: 1rem;
     margin-left: 2rem;
     line-height: 2;
+    gap: 6rem;
+}
+.skill_list_2{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+.sub_list{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    line-height: 1.5;
+    color: var(--text-color);
 }
 
 /* References */

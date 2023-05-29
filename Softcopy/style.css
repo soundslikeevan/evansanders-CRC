@@ -31,13 +31,8 @@ a{
     font-weight: 400;
     color: var(--text-color);
 }
+
 .title{
-    color: var(--primary-color);
-    font-weight: 700;
-    font-size: 2rem;
-    text-transform: uppercase;
-}
-.link{
     color: var(--primary-color);
     font-weight: 700;
     font-size: 2rem;
@@ -149,8 +144,7 @@ a{
     font-weight: 400;
     text-transform:uppercase;
 }
-.downloadBtn,
-.link{
+.downloadBtn{
     display: block;
     text-decoration: underline;
     font-size: 1.6rem;
@@ -168,9 +162,24 @@ a{
 /* skills */
 
 .skill_list{
+    font-size: 1.4rem;
     margin-top: 1rem;
     margin-left: 2rem;
     line-height: 2;
+    gap: 6rem;
+}
+.skill_list_2{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+.sub_list{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    line-height: 1.5;
+    color: var(--text-color);
 }
 
 /* References */
@@ -205,15 +214,15 @@ a{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3rem;
 }
 .interest_items_2{
-    margin: 3rem;
+    margin: 1rem;
     margin-top: 2rem;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
 }
 .interest_item,
 .interest_item_2{
