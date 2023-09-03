@@ -6,16 +6,17 @@
     box-sizing: border-box;
 }
 :root{
-    --primary-color: aqua;
+    --primary-color:  royalblue;
     --text-color: #727171;
+    --title-color: black;
 }
 html{
     font-size: 10px;
 }
 body{
     font-family: Montserrat;
-    background-color: aqua;
-    color: white;
+    background-color:  black;
+    color: black;
 }
 /* common styles */
 img{
@@ -23,7 +24,7 @@ img{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: blue;
 }
 .description{
     margin-top: 2rem;
@@ -35,23 +36,24 @@ a{
 .title{
     color: var(--primary-color);
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-transform: uppercase;
 }
 .item_preTitle{
+    color: var(--title-color);
     font-size: 1.4rem;
     color: var(--text-color);
-    font-weight: 300;
+    font-weight: 400;
 }
 .item_title{
     font-size: 1.6rem;
-    color: white;
-    font-weight: 500;
+    color: var(--title-color);
+    font-weight: 600;
 }
 .item_subtitle{
     font-size: 1.4rem;
     color: var(--text-color);
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /* layouts */
@@ -61,7 +63,7 @@ a{
     margin: 0 auto;
     display: grid;
     padding: 5rem;
-    background: #070707;
+    background: #dddddd;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
 }
@@ -120,11 +122,8 @@ a{
     display: flex;
     gap: 2rem;
 }
-.profile_profileImg{
-    max-width: 250px;
-}
 .profile_name_first{
-    color: white;
+    color: var(--title-color);
     font-weight: 200;
     font-size: clamp(2rem, 8vw, 4rem);
     text-transform: uppercase;
@@ -141,10 +140,11 @@ a{
 }
 .profile_title{
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 500;
     text-transform:uppercase;
 }
 .downloadBtn{
+    color: var(--title-color);
     display: block;
     text-decoration: underline;
     font-size: 1.6rem;
@@ -163,6 +163,7 @@ a{
 
 .skill_list{
     font-size: 1.4rem;
+    font-weight: 600;
     margin-top: 1rem;
     margin-left: 2rem;
     line-height: 2;
@@ -170,6 +171,7 @@ a{
 }
 .skill_list_2{
     font-size: 1.4rem;
+    font-weight: 600;
     margin-top: 1rem;
     margin-left: 2rem;
     line-height: 2;
@@ -180,16 +182,6 @@ a{
     margin-left: 4rem;
     line-height: 1.5;
     color: var(--text-color);
-}
-
-/* References */
-
-.ref_item{
-    margin-top: 2rem;
-}
-.ref_name{
-    font-size: 1.6rem;
-    font-weight: 700;
 }
 
 /* Education */
@@ -289,6 +281,6 @@ hr{
     font-weight: 500;
     display:flex;
     align-items: center;
-    color: white;
+    color: blue;
     justify-content: flex-start;
 }
